@@ -1,6 +1,8 @@
 {
   "Software Engineer": ["Software Engr", "SWE", "S/W Engineer", "Developer", "Software Dev", "SDE", "Software Developer"],
   "Senior Software Engineer": ["Sr. Software Engr", "Sr. SWE", "Sr. Developer", "Senior Developer", "Sr. SDE"],
-  "Data Scientist": ["Data Sci", "Data Analyst", "ML Engineer", "Machine Learning Scientist"],
-  "Product Manager": ["PM", "Prod Manager", "Product Owner"]
+  "Data Scientist": ["Data Sci", "Data Analyst"],
+  "Product Manager": ["PM", "Prod Manager", "Product Owner"],
+  "ML Engineer": ["ML Engineer","ml","ml engineer","Machine Learning Engineer"],
+  "NLP Engineer": ["NLP Engineer"]
 }
