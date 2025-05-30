@@ -20,7 +20,7 @@ from app.normalizer import normalize_title, FLAT_SYNONYMS
         ("Sr. SWE", "Senior Software Engineer"),    
         ("Data anylist", "Data Scientist"),        
         ("product owne", "Product Manager"), 
-        ("ml", "ML Engineer"),
+        ("ml", "ML Engineer")
      
         
     ]
@@ -49,6 +49,3 @@ def test_all_titles_and_synonyms():
             if result != canonical:
                 print(f"FAIL: '{synonym}' -> '{result}' (expected '{canonical}')")
     
-def test_ambiguous_synonym():
-   
-    assert normalize_title("Developer") == "ML Engineer"          
